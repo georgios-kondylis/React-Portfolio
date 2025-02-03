@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* p {
+  color: #f5f3dc;
+} */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* h1 {
+  color: #eee4d9;
+} */
+
+/* main dark bg-[#121212] */
