@@ -10,7 +10,39 @@ body {
 }
 
 /* h1 {
-  color: #eee4d9;
+  color: #f5f3dc; beige hover
 } */
 
 /* main dark bg-[#121212] */
+
+.HeroBTN {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.HeroBTN:hover {
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.595);
+}
+
+.HeroBTN::after {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  width: 40%;
+  height: 300%;
+  background:linear-gradient(90deg, #00000000, #e8e8e859, #00000000);
+  top: 50%;
+  left: -15%;
+  transform: translate(-50%, -50%); /* Centers the pseudo-element */
+  transition: all 0.9s ease;
+  position: none;
+}
+.HeroBTN:hover::after {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  width: 30%;
+  height: 300%;
+  background:linear-gradient(90deg, #00000000, #e8e8e859, #00000000);
+  top: 50%;
+  left: 200%;
+  transform: translate(-50%, -50%); /* Centers the pseudo-element */
+}
