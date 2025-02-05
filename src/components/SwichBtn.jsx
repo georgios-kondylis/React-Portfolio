@@ -7,7 +7,7 @@ const SwichBtn = ({ darkMode, setDarkMode }) => {
       className={`flex flex-row-reverse items-center justify-between w-[60px] px-[2px] py-[1.5px] rounded-[50px] h-[30px]`}
       style={{
         background: darkMode
-          ? "linear-gradient(30deg,  #ffffff30, #191919, #191919, #ffffff20)"
+          ? "linear-gradient(30deg,  #ffffff30, #282828, #282828, #ffffff20)"
           : "linear-gradient(30deg,  #00000090, #ffffff, #ffffff, #00000090)",
       }}
     >
