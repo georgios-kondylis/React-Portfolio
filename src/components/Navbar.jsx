@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SwichBtn from "./SwichBtn";
 
 const Navbar = ({ darkMode, setDarkMode, textColor, sideNavIsOpen, setSideNavIsOpen, toggleSideNav }) => {
 
@@ -21,8 +22,8 @@ const Navbar = ({ darkMode, setDarkMode, textColor, sideNavIsOpen, setSideNavIsO
         <a href="" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300`}>Contact</a>
       </div>
 
-      <div className="flex items-center gap-3">
-           <img onClick={() => setDarkMode((prev) => !prev)} className="w-[90px] cursor-pointer" src={!darkMode ? "/brightBTN.png" : "/darkBTN.png"}  alt="Theme Toggle Button" />
+      <div className="flex items-center gap-[20px]">
+          <SwichBtn darkMode={darkMode} setDarkMode={setDarkMode}/>
 
            <div className={`${textColor}  flex flex-col gap-[6px] sm:hidden cursor-pointer`} 
                 onClick={toggleSideNav}>
