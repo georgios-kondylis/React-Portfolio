@@ -43,7 +43,7 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
         <div className="absolute top-[101px] max-sm:top-[83px] max-supersmall:top-[125px] right-0 w-[3px] h-[50%] bg-gradient-to-b from-[#f5f3dc] to-transparent"></div>
       </div>
 
-      <div className={`text-white w-full flex max-sm:flex-col`}>
+      <div className={`text-white w-full flex items-start max-sm:flex-col`}>
         <img className="w-[50%] object-contain border-[#f5f3dc] max-sm:w-full sm:max-w-[400px] rounded-lg" src="/LinkedInPIC.jpg" alt="" /> {/*IMAGE*/}
         <div id="Skills" className="w-1/2 h-full max-sm:w-full flex flex-col" >
 
