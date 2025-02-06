@@ -78,7 +78,7 @@ const Skills = () => {
               </div>
             ) : (
               <img
-                className={`${skill.name === 'MongoDB'? 'w-[26px]' :'w-[40px]'} object-contain`}
+                className={`${skill.name === 'MongoDB'? 'w-[26px] max-sm:w-[20px]' :'w-[40px] max-sm:w-[34px]'} object-contain`}
                 src={skill.img}
                 alt={skill.name}
               />
