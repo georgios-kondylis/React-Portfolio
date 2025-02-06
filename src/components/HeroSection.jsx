@@ -5,7 +5,7 @@ import CheckIcon from '@mui/icons-material/Check';
 
 const HeroSection = ({ textColor, textColor2, darkMode }) => {
   return (
-    <div className="flex gap-[20px] h-[100vh] justify-between max-md:justify-center max-md:flex-col-reverse max-md:h-[100vh] items-center w-full max-sm:px-[20px] sm:px-[40px] md:px-[60px] lg:px-[100px] transition-all ease-in-out duration-300">
+    <div className="flex gap-[20px] justify-between max-md:justify-center max-md:flex-col-reverse max-md:h-[100vh] items-center w-full max-sm:px-[20px] sm:px-[40px] md:px-[60px] lg:px-[100px] transition-all ease-in-out duration-300">
       {/* Text Section */}
       <div className="max-md:w-[100%] md:w-[50%] h-[450px] max-sm:h-[370px] flex flex-col justify-between gap-2 ">
 
@@ -41,7 +41,6 @@ const HeroSection = ({ textColor, textColor2, darkMode }) => {
           
         </div>
         
-
       </div>
 
       {/* Image Section */}

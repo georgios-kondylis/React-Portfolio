@@ -3,10 +3,12 @@ import SwichBtn from "./SwichBtn";
 
 const Navbar = ({ darkMode, setDarkMode, textColor, sideNavIsOpen, setSideNavIsOpen, toggleSideNav }) => {
 
+  const margins_paddings = `max-sm:px-[20px] max-md:px-[40px] md:px-[60px] lg:px-[100px]`;
+
   const NavbarStyles = `fixed w-full h-[70px] 
   ${darkMode? 'bg-[rgba(23,23,23,1)]' : 'bg-[#eee4d9] shadow-[0_0_10px_rgba(0,0,0,0.3)]' } 
   border-b border-b-[rgba(225,225,225,0.3)]  
-  flex gap-[20px] max-sm:px-[20px] items-center justify-between max-md:px-[40px] md:px-[60px] lg:px-[100px] transition-all ease-in-out duration-700  z-50`
+  flex gap-[20px] ${margins_paddings} items-center justify-between transition-all ease-in-out duration-700  z-50`
 
   return (
     <div
