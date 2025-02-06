@@ -4,6 +4,9 @@
 /* p {
   color: #f5f3dc;
 } */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Quicksand', sans-serif;

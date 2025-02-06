@@ -17,7 +17,7 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
   const margins_paddings = `max-sm:px-[20px] max-md:px-[40px] md:px-[60px] lg:px-[100px]`;
 
   return (
-    <div className={`bg-[#121212] flex flex-col ${margins_paddings} max-md:mt-[100px]`}>
+    <div id="about" className={`bg-[#121212] flex flex-col ${margins_paddings} max-md:mt-[100px]`}>
 
       <div className={`text-white relative w-full flex flex-col mb-[30px]`}>
         <h1 className="mx-auto text-[2.5rem] max-sm:text-[1.8rem] my-[20px]">Passion Fuels Purpose</h1>

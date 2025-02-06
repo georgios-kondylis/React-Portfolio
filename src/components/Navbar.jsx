@@ -18,8 +18,8 @@ const Navbar = ({ darkMode, setDarkMode, textColor, sideNavIsOpen, setSideNavIsO
       <h1 className={`${textColor} text-[1.5rem] max-sm:text-[1.3rem] text-nowrap`}>Georgios <span className={`${darkMode? 'text-[#f5f3dc] ' : textColor} font-extrabold`}>Kondylis</span></h1>
       
       <div className={`${textColor} text-[1.2rem] max-md:text-[1rem] flex items-center gap-4 max-lg:gap-[15px] max-sm:hidden`}> {/* Navlinks */}
-        <a href="" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300 `}>Home</a>
-        <a href="" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300`}>About</a>
+        <a href="#home" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300 `}>Home</a>
+        <a href="#about" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300`}>About</a>
         <a href="" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300`}>Projects</a>
         <a href="" className={`${!darkMode? 'hover:text-[#4a4a4a]' : 'hover:text-[#f5f3dc]'}  hover:scale-110 transition-all ease-in-out duration-300`}>Contact</a>
       </div>
