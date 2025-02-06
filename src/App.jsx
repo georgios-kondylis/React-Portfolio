@@ -55,10 +55,9 @@ function App() {
                 setDarkMode={setDarkMode}
                 textColor={textColor}
                 textColor2={textColor2}
-                toggleSideNav={toggleSideNav}
-              />
-            }
+                toggleSideNav={toggleSideNav} />}
           />
+
         </Routes>
       </div>
     </BrowserRouter>

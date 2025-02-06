@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 
 import css from '../assets/cssicon.png'
 import html from '../assets/htmlicon.png'
@@ -11,6 +12,7 @@ import expressicon from '../assets/expressicon.png'
 import gsap from '../assets/gsapicon.svg'
 import framermotion from '../assets/framermotionicon.svg'
 import figma from '../assets/figmaicon.png'
+import mongo from '../assets/mongodbicon.png'
 
 
 const AboutSection = ({textColor, textColor2, darkMode}) => {
@@ -42,26 +44,15 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
       </div>
 
       <div className={`text-white w-full flex max-sm:flex-col`}>
-        <img className="w-[50%] border-[#f5f3dc] max-sm:w-full sm:max-w-[400px] rounded-lg" src="/LinkedInPIC.jpg" alt="" /> {/*IMAGE*/}
-        <div id="Skills" className="w-1/2 max-sm:w-full flex flex-col" >
+        <img className="w-[50%] object-contain border-[#f5f3dc] max-sm:w-full sm:max-w-[400px] rounded-lg" src="/LinkedInPIC.jpg" alt="" /> {/*IMAGE*/}
+        <div id="Skills" className="w-1/2 h-full max-sm:w-full flex flex-col" >
 
-          <h1 className="text-[3rem] mt-[20px] mb-[30px] mx-auto">Skills</h1>
-
-          <div className="flex pl-[30px] flex-wrap gap-[30px] justify-start w-full">
-            <img className="w-[40px] object-contain" src={html} alt="" />
-            <img className="w-[35px] object-contain" src={css} alt="" />
-            <img className="w-[37px] object-contain rounded-md" src={js} alt="" />
-            <img className="w-[37px] object-contain" src={node3} alt="" />
-            <img className="w-[40px] object-contain" src={expressicon} alt="" />
-            <div className="rounded-full w-[40px] h-[40px] bg-white">
-              <img className="w-[40px] object-contain rounded-full border" src={nextjs} alt="" />
-            </div>
-            <img className="w-[40px] object-contain" src={react} alt="" />
-            <img className="w-[43px] object-contain" src={tailwind} alt="" />
-            <img className="w-[40px] object-contain" src={gsap} alt="" />
-            <img className="w-[39px] object-contain" src={framermotion} alt="" />
-            <img className="w-[34px] object-contain" src={figma} alt="" />
+          <div className="relative mt-[20px] mb-[20px] mx-auto">
+            <h1 className=" text-[3rem]">Skills</h1>
+            <div className="absolute bottom-[7px] left-0 w-[80%] h-[3px] bg-gradient-to-r from-[#f5f3dc] to-transparent rounded-3xl"></div>
           </div>
+
+          <Skills/>
 
         </div>
       </div>
@@ -71,3 +62,4 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
 };
 
 export default AboutSection;
+// MINE
