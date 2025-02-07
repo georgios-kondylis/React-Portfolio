@@ -15,7 +15,7 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
           <br /><br />
           With a year of hands-on coding, I’m constantly learning and evolving. I love problem-solving, design, and animation, whether it's debugging tricky errors or refining UI details.  
           <br /><br />
-          I write clean, maintainable code and structure projects for scalability and collaboration. From working with APIs to optimizing UI performance, I handle both front-end and back-end to build seamless, high-performing applications.  
+          I write clean, maintainable code and structure projects for scalability and collaboration. From working with APIs to optimizing UI performance, I handle both front-end and back-end to build seamless, high-performing applications while using Git for version control .  
           <br /><br />
           For me, coding is more than writing code it's about crafting experiences, solving problems, and bringing ideas to life.
         </p>

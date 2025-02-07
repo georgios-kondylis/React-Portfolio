@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import css from "../assets/cssicon.png";
-import html from "../assets/htmlicon.png";
-import js from "../assets/jsicon.png";
-import nextjs from "../assets/nextjsicon.png";
-import react from "../assets/reacticon.png";
-import tailwind from "../assets/tailwindicon.png";
-import node3 from "../assets/node3.png";
-import expressicon from "../assets/expressicon.png";
-import gsap from "../assets/gsapicon.svg";
-import framermotion from "../assets/framermotionicon.svg";
-import figma from "../assets/figmaicon.png";
-import mongo from "../assets/mongodbicon.png";
-import canva from "../assets/canvaicon.png";
+import css from "../assets/icons/cssicon.png";
+import html from "../assets/icons/htmlicon.png";
+import js from "../assets/icons/jsicon.png";
+import nextjs from "../assets/icons/nextjsicon.png";
+import react from "../assets/icons/reacticon.png";
+import tailwind from "../assets/icons/tailwindicon.png";
+import node3 from "../assets/icons/node3.png";
+import expressicon from "../assets/icons/expressicon.png";
+import gsap from "../assets/icons/gsapicon.svg";
+import framermotion from "../assets/icons/framermotionicon.svg";
+import figma from "../assets/icons/figmaicon.png";
+import mongo from "../assets/icons/mongodbicon.png";
+import canva from "../assets/icons/canvaicon.png";
+import restApi from "../assets/icons/RESTapi.png"
 
 const Skills = () => {
   const [dispayedSkills, setDispayedSkills] = useState("Frontend");
@@ -25,13 +26,14 @@ const Skills = () => {
       { img: react, name: "React" },
       { img: nextjs, name: "Next.js" },
       { img: gsap, name: "GSAP" },
-      { img: framermotion, name: "Fr. Motion" },
+      { img: framermotion, name: "Fr.Motion" },
       ,
     ],
     'Backend': [
       { img: node3, name: "Node.js" },
       { img: expressicon, name: "Express.js" },
       { img: mongo, name: "MongoDB" },
+      { img: restApi, name: "Rest API" },
     ],
     'UI/UX': [
       { img: figma, name: "Figma" },
