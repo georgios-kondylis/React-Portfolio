@@ -1,25 +1,11 @@
 import React from "react";
 import Skills from "./Skills";
 
-import css from '../assets/cssicon.png'
-import html from '../assets/htmlicon.png'
-import js from '../assets/jsicon.png'
-import nextjs from '../assets/nextjsicon.png'
-import react from '../assets/reacticon.png'
-import tailwind from '../assets/tailwindicon.png'
-import node3 from '../assets/node3.png'
-import expressicon from '../assets/expressicon.png'
-import gsap from '../assets/gsapicon.svg'
-import framermotion from '../assets/framermotionicon.svg'
-import figma from '../assets/figmaicon.png'
-import mongo from '../assets/mongodbicon.png'
-
-
 const AboutSection = ({textColor, textColor2, darkMode}) => {
   const margins_paddings = `max-sm:px-[20px] max-md:px-[40px] md:px-[60px] lg:px-[100px]`;
 
   return (
-    <div id="about" className={`bg-[#121212] flex flex-col ${margins_paddings} max-md:mt-[100px]`}>
+    <div id="about" className={`bg-[#121212] flex flex-col ${margins_paddings} pb-[40px] max-md:mt-[100px]`}>
 
       <div className={`text-white relative w-full flex flex-col mb-[30px]`}>
         <h1 className="mx-auto text-[2.5rem] max-sm:text-[1.8rem] my-[20px]">Passion Fuels Purpose</h1>
@@ -33,7 +19,8 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
           <br /><br />
           For me, coding is more than writing code it's about crafting experiences, solving problems, and bringing ideas to life.
         </p>
-
+        
+       {/* {---------- Custom Border Fade Effect ----------} */}
         <div className="absolute bottom-0 left-0 w-[20%] h-[3px] bg-gradient-to-r from-[#f5f3dc] to-transparent"></div>
 
         <div className="absolute bottom-0 left-0 w-[3px] h-[50%] bg-gradient-to-t from-[#f5f3dc] to-transparent"></div>
@@ -41,6 +28,8 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
         <div className="absolute top-[101px] max-sm:top-[83px] max-supersmall:top-[125px] right-0 w-[10%] h-[3px] bg-gradient-to-l from-[#f5f3dc] to-transparent"></div>
        
         <div className="absolute top-[101px] max-sm:top-[83px] max-supersmall:top-[125px] right-0 w-[3px] h-[50%] bg-gradient-to-b from-[#f5f3dc] to-transparent"></div>
+        {/* {---------- Custom Border Fade Effect ----------} */}
+
       </div>
 
       <div className={`text-white w-full flex items-start max-sm:flex-col`}>

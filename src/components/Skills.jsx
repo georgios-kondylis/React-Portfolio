@@ -17,24 +17,24 @@ const Skills = () => {
   const [dispayedSkills, setDispayedSkills] = useState("Frontend");
 
   const skills = {
-    Frontend: [
+    'Frontend': [
       { img: html, name: "HTML" },
       { img: css, name: "CSS" },
       { img: tailwind, name: "Tailwind CSS" },
       { img: js, name: "JavaScript" },
       { img: react, name: "React" },
       { img: nextjs, name: "Next.js" },
+      { img: gsap, name: "GSAP" },
+      { img: framermotion, name: "Fr. Motion" },
       ,
     ],
-    Backend: [
+    'Backend': [
       { img: node3, name: "Node.js" },
       { img: expressicon, name: "Express.js" },
       { img: mongo, name: "MongoDB" },
     ],
-    "UI/UX": [
+    'UI/UX': [
       { img: figma, name: "Figma" },
-      { img: gsap, name: "GSAP" },
-      { img: framermotion, name: "Framer Motion" },
       { img: canva, name: "Canva" },
     ],
   };
@@ -51,7 +51,7 @@ const Skills = () => {
             <button
               key={i}
               className={`${
-                dispayedSkills === category? 'text-[#f5dcdc]': ''
+                dispayedSkills === category? 'text-[#ffff]': 'text-[#8a8a8ab8]'
                   
               }`}
               onClick={() => setDispayedSkills(category)} // Fix applied here

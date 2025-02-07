@@ -30,7 +30,7 @@ function App() {
     <BrowserRouter>
       <div
         id="BACKGROUND-FIXED"
-        className={`${darkMode ? "bg-[#121212] bg-cover bg-center bg-fixed" : "bg-[url('/beigeBG.jpg')] bg-cover bg-center bg-fixed"} max-md:h-[200vh] h-full`}
+        className={`${darkMode ? "bg-[#121212] bg-cover bg-center bg-fixed" : "bg-[url('/beigeBG.jpg')] bg-cover bg-center bg-fixed"} h-full`}
         style={darkMode ? { backgroundImage: "url('/Swatch.png'), url('/grid-peice.png')" } : {}}
       >
         {/* Always show the Navbar on the / route */}
