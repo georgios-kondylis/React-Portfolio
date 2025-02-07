@@ -68,9 +68,13 @@ const Projects = ({ textColor, darkMode, textColor2 }) => {
                           alt={project.name}
                         />
                       )}
+                      
+                     {hoveredProject === project.id ?  <div className={`absolute inset-0 backdrop-blur-sm w-full flex flex-col justify-center items-center text-white transition-all duration-700 ease-in-out`} ></div> : null} 
+
+
                       <div
                         className={` 
-                          absolute inset-0 bg-[#000000cb] w-full flex flex-col justify-center items-center text-white transition-all duration-300 ease-in-out
+                          absolute inset-0 bg-[#000000cb] w-full flex flex-col justify-center items-center text-white transition-transform duration-300 ease-in-out
                           ${
                             hoveredProject === project.id
                               ? "translate-y-[0px] opacity-100"
