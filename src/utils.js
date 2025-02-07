@@ -32,7 +32,7 @@ import MUI from "./assets/icons/MUI.png";
       repo: 'https://github.com/georgios-kondylis/Georgios_Apple',
       skillImages: [react, tailwind, gsap, threeJS],
       description:
-        "Apple clone is my first project with an interactive 3D model of an iPhone.",
+        "An Apple clone featuring an interactive 3D iPhone model and a video slider with a dynamic progress bar",
     },
     {
       id: 2,
