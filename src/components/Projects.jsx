@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { projects } from "../utils";
 
-const Projects = ({ textColor, darkMode, textColor2 }) => {
+const Projects = ({ textColor, darkMode }) => {
   const [hoveredProject, setHoveredProject] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [projectsPerPage, setProjectsPerPage] = useState(4);
