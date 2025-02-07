@@ -57,7 +57,6 @@ function App() {
                 textColor2={textColor2}
                 toggleSideNav={toggleSideNav} />}
           />
-
         </Routes>
       </div>
     </BrowserRouter>
