@@ -106,3 +106,5 @@ import MUI from "./assets/icons/MUI.png";
       description: "An app that generates secure random passwords based on user-selected filters.",
     },
   ];
+
+  export const margins_paddings = `max-sm:px-[20px] max-md:px-[40px] md:px-[60px] lg:px-[100px]`;
