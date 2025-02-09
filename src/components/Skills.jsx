@@ -67,7 +67,7 @@ const Skills = () => {
       </div>
 
       {/* Display selected skills */}
-      <div className="flex bg-[#1b1b1b] p-2 rounded-lg flex-wrap flex-col max-h-[250px] gap-4">
+      <div className="flex bg-[#1b1b1b] max-md:p-[10px] md:p-[25px] rounded-lg flex-wrap flex-col max-h-[350px] gap-4">
         {skills[dispayedSkills].map((skill, i) => (
           <div key={i} className="flex items-center gap-2">
             {skill.name === "Next.js" ? (

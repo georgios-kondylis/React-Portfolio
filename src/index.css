@@ -16,9 +16,7 @@ textarea:-webkit-autofill:focus {
 html {
   scroll-behavior: smooth;
 }
-h2 {
-  color: #000000a2;
-}
+
 body {
   font-family: 'Quicksand', sans-serif;
 }

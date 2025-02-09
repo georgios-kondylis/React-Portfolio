@@ -20,8 +20,8 @@ const Projects = ({ textColor, darkMode }) => {
   const totalSlides = Math.ceil(projects.length / projectsPerPage);
 
   return (
-    <div className="w-full px-4 md:px-12 lg:px-24 flex flex-col justify-center items-center p-4 text-white">
-      <h1 className={`${textColor} py-[30px] text-[2rem] font-extrabold mb-6`}>
+    <div id="projects" className="w-full px-4 md:px-12 lg:px-24 flex flex-col justify-center items-center py-[60px] text-white">
+      <h1 className={`${textColor} py-[30px] text-[2.5rem] max-sm:text-[1.8rem] font-extrabold mb-6`}>
         Projects
       </h1>
 
