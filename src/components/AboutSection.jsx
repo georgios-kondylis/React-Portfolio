@@ -33,17 +33,15 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
 
       </div>
 
-      <div className={`text-white w-full flex items-start max-sm:flex-col`}>
-        <img className="w-[50%] object-contain border-[#f5f3dc] max-sm:w-full sm:max-w-[400px] rounded-lg" src="/LinkedInPIC.jpg" alt="" /> {/*IMAGE*/}
-        <div id="Skills" className="w-1/2 h-full max-sm:w-full flex flex-col" >
+      <div className={`text-white w-full flex items-end max-sm:flex-col`}>
+        <img className="w-[50%] h-fit object-contain max-sm:w-full sm:max-w-[400px] rounded-lg" src="/LinkedInPIC.jpg" alt="" /> {/*IMAGE*/}
 
-          <div className="relative mt-[20px] mb-[20px] mx-auto">
+        <div id="Skills" className="w-1/2 h-full max-sm:w-full flex flex-col" >
+          <div className="relative my-[20px] lg:mb-[70px] mx-auto">
             <h1 className=" text-[3rem]">Skills</h1>
             <div className="absolute bottom-[7px] left-0 w-[80%] h-[3px] bg-gradient-to-r from-[#f5f3dc] to-transparent rounded-3xl"></div>
           </div>
-
           <Skills/>
-
         </div>
       </div>
 
@@ -52,4 +50,3 @@ const AboutSection = ({textColor, textColor2, darkMode}) => {
 };
 
 export default AboutSection;
-// MINE

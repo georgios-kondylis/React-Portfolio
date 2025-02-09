@@ -44,7 +44,7 @@ const Skills = () => {
   return (
     <div
       id="about"
-      className="bg-[#121212] flex flex-col p-6"
+      className="bg-[#121212] flex flex-col px-6"
     >
       {/* Buttons to switch skills category */}
       <div className="flex w-full justify-around gap-1 mb-6">
